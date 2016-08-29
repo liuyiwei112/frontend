@@ -1,0 +1,18 @@
+.androidImg { 
+	position: absolute;
+	margin-top: -165px;
+	right: 20px; 
+}
+
+.iosImg{ 
+	position: absolute;
+	margin-top: -165px;
+	right: 200px;
+}
+
+.djxzFont{
+	position:absolute;
+	margin-top:-190px;
+	color:#FFFFFF;
+	font-size:20px;
+}

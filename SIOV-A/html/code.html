@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">  
+<head>  
+<meta charset="utf-8"/>  
+<title>
+智慧车联网
+</title>  
+</head>  
+<body>  
+<h1 id="content">
+</h1>
+</body>
+</html>  
+	<script src="../js/jquery.js"></script>
+	<script src="../bootstrop-3.3.5/js/bootstrap.min.js"></script>
+	<script src="../js/holder.js"></script> 
+	<script src="../js/respond.min.js"></script> 
+	<script src="../js/ewm.js"></script> 
+	<script src="../js/wow.js"></script> 
+	<script src="../js/main.js"></script>
+	<script type="text/javascript">  
+	window.onload = function(){  
+		if(isWeiXin()){  
+			$("#content").text("点击右上角展开，选择“在浏览器中打开”，跳转浏览器下载安卓版慧驾黑匣子");
+		}else{
+			window.location.href="http://siov.huijiacn.com/ImageServer/APK_Version/HJOBD.apk";	
+		}
+	}  
+	function isWeiXin(){  
+		var ua = window.navigator.userAgent.toLowerCase();  
+		if(ua.match(/MicroMessenger/i) == 'micromessenger'){  
+			return true;  
+		}else{  
+			return
+			false;  
+		}  
+	}  
+	</script>
